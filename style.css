@@ -1,0 +1,527 @@
+*{
+    margin:0;
+    border: border-box; 
+    font-family: arial;
+}
+
+.navbar{
+ 
+     height:60px;
+     width:100%;
+     background-color: #0f1111;  
+     color:white;
+     display:flex;
+     align-items:center;
+     justify-content: space-around;
+
+    
+}
+.amazonlogo{
+    height:95%;
+    width:125px;
+    display:flex;
+    align-items: center;
+ 
+}
+.alogo{
+    height:37px;
+    width:100%;
+    color:white;
+    background-image: url("amazonlogo.png");
+    background-size: cover;
+}
+.addressbox{
+   height:95%;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+}
+#delivary{
+      color:#CCCCCC;
+      font-size:12px;
+      margin-left:13px;
+}
+.address p{
+    font-size: 14px;
+    margin-left: 3px;
+    font-weight:bold;
+    color:white;
+   
+}
+.address {
+    display:flex;
+    font-size: 14px;
+}
+.searchpannel{
+    height:100%;
+    width:50%;
+    display:flex;
+    align-items:center;
+
+}
+ .selectitems{
+    height:100%;
+    display:flex;
+    align-items:center;
+ }
+ #items:hover{
+   background-color: #CCCCCC;
+   color: #0f1111;
+   font-weight: bolder;
+
+ }
+ #items{
+    height:65%;
+    background-color: rgb(224, 222, 222);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+    
+   
+ }
+ .inputbar{
+    height:100%;
+    width:650px;
+    display:flex;   
+   
+    align-items:center;
+  
+
+ }
+ .inputbar input{
+    height:60%;
+    width:100%;
+    border:none;
+ }
+ .searchbutton{
+    height:100%;
+    width:50px;
+    display:flex;
+    align-items:center;
+
+ }
+ .searchbutton button{
+    height:65%;
+    width:100%;
+    background-color:rgba(255, 189, 65, 0.927) ;
+    border:none;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.5rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+ } 
+ .language{
+   height:95%;
+   width:75px;
+   display:flex;
+   margin-left: 15px;
+   justify-content:center;
+   align-items:center;
+ }
+ .flag{
+   height:15px;
+   width:25px;
+   background-image: url("flag.jpg");
+   background-size: cover;
+ }
+ .select-lang{
+   height:20px;
+   width:45px;
+   
+
+ }
+ #select-lang1{
+   background-color: transparent;
+   border:none;
+   color:white;
+   font-weight:700;
+
+ }
+.account{
+   height:95%;
+   width:130px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.account1{
+   font-size: 12px;
+   color:#d8d8d8
+}
+.account2{
+   font-size: 14px;
+   font-weight: 700;
+
+}
+.returns{
+   height:95%;
+   width:80px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
+.returns1{
+   font-size: 12px;
+   color:#d8d8d8
+}
+.orders{
+   font-size: 14px;
+   font-weight: 700;
+}
+.cart-nav{
+   height:95%;
+   width:85px;
+   display:flex;
+   align-items:center;
+}
+.cartlogo{
+   font-size:2rem;
+   
+}
+.cart2{
+   height:30px;
+   display:flex;
+   
+}
+.cart2 p{
+   align-self:flex-end;
+   font-weight:700;
+}
+.navbarborder:hover{
+   
+   border:1px solid white;
+   border-radius: 2px;
+
+}
+.sub-nav{
+   height:40px;
+   width:100%;
+   background-color: #222f3d;
+   display:flex;
+}
+.sub-nav a{
+   color:white;
+   text-decoration: none;
+   font-weight: 500;
+   margin-left: 15px;
+ 
+}
+.borderh:hover{
+   margin-bottom: 5px;
+   border:1px solid white;
+   border-radius: 2px;
+}
+
+.menubar{
+   height:94%;
+   width:90px;
+   display:flex;
+   align-items:center;
+   justify-content: center;
+}
+.menulogo {
+   margin-left: 20px;
+   color: white;
+   font-size: 1.5rem;
+}
+
+.all-menu a{
+   margin-left: 5px;
+   margin-right:10px;
+ font-weight: 700;
+ color: white;
+ text-decoration: none;
+}
+
+
+.today-deals{
+   height:94%;
+   width:120px;
+   display:flex;
+   align-items: center;
+}
+.buy-again{
+   height:94%;
+   width:90px;
+   display:flex;
+   align-items:center;
+}
+.registry{
+   height:94%;
+   width:75px;
+   display:flex;
+   align-items:center;
+}
+.gift-card{
+   height:95%;
+   width:85px;
+   display:flex;
+   align-items:center;
+}
+.sell{
+   height:94%;
+   width:70px;
+   display:flex;
+   align-items:center;
+}
+.premain{
+   height:350px;
+   width:100%;
+   background-image: url("bgimage.jpg");
+   background-size: cover;
+   display:flex;
+   align-items:flex-end;
+   justify-content: center;
+}
+.amazonin{
+   height:40px;
+   width:90%;
+   display:flex;
+   background-color: #f5f6f6; 
+   align-items:center;
+   justify-content:center;
+}
+.amazonin a{
+   text-decoration: none;
+   color:#007185
+}
+.main1{
+   height:450px;
+   width:100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   background-color: rgb(255, 207, 243);
+}
+.main1 h1{
+   font-size: 1.5rem;
+  align-self: flex-start;
+  margin-left: 10px;
+}
+.main1 a{
+   text-decoration: none;
+   color:#007185;
+   font-size :0.9rem;
+   align-self: flex-start;
+   margin-left: 20px;
+}
+
+.box{
+   height:90%;
+   width:23%;
+   display:flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+    background-color: white;
+}
+.m1box1-image{
+  height:270px;
+  width:290px;
+
+  background-image: url("teddy1.webp");
+  background-size: cover;
+}
+
+.m1box2-image{
+  height:270px;
+  width:290px;
+
+  background-image: url("videogame.jpg");
+  background-size: cover;
+}
+
+.m1box3-image{
+  height:270px;
+  width:290px;
+
+  background-image: url("badminton.webp");
+  background-size: cover;
+}
+
+
+.m1box4-image{
+  height:270px;
+  width:290px;
+
+  background-image: url("giftforv.webp");
+  background-size: cover;
+}
+.main2{
+   height:450px;
+   width:100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   background-color: rgb(255, 207, 243);
+}
+.main2 h1{
+   font-size: 1.5rem;
+  align-self: flex-start;
+  margin-left: 10px;
+}
+.main2 a{
+   text-decoration: none;
+   color:#007185;
+   font-size :0.9rem;
+   align-self: flex-start;
+   margin-left: 20px;
+}
+.m2box1-image{
+   height:270px;
+   width:290px;
+   background-image: url("watch.jpg");
+   background-size: cover;
+}
+.m2box2-image{
+   height:270px;
+   width:290px;
+   background-image: url("cpu.jpg");
+   background-size: cover;
+}
+.m2box3-image{
+   height:270px;
+   width:290px;
+   background-image: url("stesnary.jpg");
+   background-size: cover;
+}
+.m2box4-image{
+   height:270px;
+   width:290px;
+   background-image: url("indoordecor.webp");
+   background-size: cover;
+}
+.anchorhover a:hover{
+   color:orange;
+}
+.footnavbar{
+   height:50px;
+   width:100%;
+   background-color: #3b4f63;
+}
+.footnavbar button{
+   height:100%;
+   width:100%;
+   background-color: transparent;
+   color:#ffffff;
+
+}
+.webabout{
+height:400px;
+width:100%;
+background-color:#232f3e;
+display:flex;
+justify-content: space-evenly;
+border-bottom: 0.1px solid #858585;
+}
+.aboutbox{
+   margin-top: 50px;
+   flex-direction: column;
+   display:flex;
+ 
+}
+.aboutbox a:hover{
+   text-decoration: underline;
+}
+.aboutbox h1{
+   color:white;
+   font-size:1rem;
+   margin-bottom: 15px;
+}
+.aboutbox a{
+   text-decoration: none;
+   color:#CCCCCC;
+   font-size: 14px;
+   margin-bottom: 10px;
+}
+.lastnavbar{
+   height:90px;
+   width:100%;
+   background-color: #232f3e;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+.alogo-foot{
+   height:25px;
+   width:85px;
+    background-image: url("amazonlogo.png") ;
+    background-size: cover;
+}
+.language-foot{
+   height:35px;
+   width:90px;
+   color:#CCCCCC;
+   margin-left: 50px;
+   border-radius: 4px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid #CCCCCC;
+}
+.language-foot select{
+   height:100%;
+   width:75%;
+   border:none;
+   color:#CCCCCC;
+   background-color: transparent;
+}
+.currancy{
+   height:35px;
+   width:125px;
+   margin-left: 20px;
+   flex-direction: row;
+   display:flex;
+}
+.currancy button{
+   height: 100%;
+   width:100%;
+   color: #CCCCCC;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 4px;
+   border:1px solid #CCCCCC;
+   background-color: transparent;
+}
+.currancy  p{
+   margin-left:5px;
+}
+.country-foot{
+   height:35px;
+   width:130px;
+}
+.copyright{
+   height:80px;
+   width:100%;
+   display:flex;
+   background-color: #0f1111;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.copyright div{
+   width:100%;
+   display:flex;
+   justify-content: center;
+
+}
+.copyright p{
+   margin-top: 10px;
+   color:#CCCCCC;
+   font-size: 0.75rem;
+   margin-left: 10px;
+
+}
+
+
+ 
+
+ 
+ 
